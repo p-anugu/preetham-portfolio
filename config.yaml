@@ -4,6 +4,11 @@ languageCode: en-us
 title: "Preetham Anugu"
 theme: "toha"
 
+# Cache configuration for image processing
+caches:
+  images:
+    dir: :cacheDir/images
+
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:

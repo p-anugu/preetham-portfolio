@@ -21,7 +21,7 @@ summary: |
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "mailto:panugu@proton.me"
+  url: "panugu@proton.me"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"

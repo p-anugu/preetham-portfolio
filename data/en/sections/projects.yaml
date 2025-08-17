@@ -1,0 +1,67 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  template: sections/projects.html
+
+buttons:
+- name: All
+  filter: "all"
+- name: AI-Powered
+  filter: "ai"
+- name: Full-Stack
+  filter: "fullstack"
+- name: UI/UX
+  filter: "ui"
+
+projects:
+- name: Phone Case Generator
+  logo: /images/sections/projects/phone-case.png
+  role: Creator
+  timeline: "2025"
+  repo: "https://github.com/p-anugu/phonecaseapp"
+  url: "https://github.com/p-anugu/phonecaseapp"
+  summary: AI-assisted image→vector→DXF pipeline
+  tags: ["ai", "automation"]
+  description: |
+    Built an end-to-end pipeline for generating custom phone case designs using AI and automated conversion tools.
+    
+    - Used DALL·E 3 API with prompt engineering for minimalist line drawings optimized for fabrication
+    - Automated conversion from raster to SVG to DXF via ImageMagick, Potrace, Inkscape
+    - Designed modular pipeline with Claude Code for reliability
+    - Outputs DXF files for merging with base models for printing
+
+- name: ThriveCart React Component Conversion
+  logo: /images/sections/projects/react.png
+  role: Developer
+  timeline: "2025"
+  repo: "https://github.com/p-anugu/TCtoReact"
+  url: "https://github.com/p-anugu/TCtoReact"
+  summary: Large-scale UI refactor
+  tags: ["ui", "react", "ai"]
+  description: |
+    Transformed a complex legacy codebase into a modern React component library.
+    
+    - Migrated a 6,000+ line HTML/JS codebase to a structured React component library
+    - Used Cursor with ChatGPT-5 for targeted conversions and component isolation
+    - Preserved original functionality while improving maintainability
+    - Created reusable, testable components with clear separation of concerns
+
+- name: Local Weather Dashboard
+  logo: /images/sections/projects/weather.png
+  role: Full-Stack Developer
+  timeline: "2025"
+  repo: "https://github.com/p-anugu/localweatherdashboard"
+  url: "https://localweatherdashboard-f9e428bda4a8.herokuapp.com/"
+  summary: Full-stack weather tracking app
+  tags: ["fullstack", "nodejs"]
+  description: |
+    Developed a comprehensive weather tracking application with historical data and analytics.
+    
+    - Built mobile-responsive app with Node.js/Express backend and vanilla JS frontend
+    - Integrated WeatherAPI with graceful error handling
+    - Added SQLite persistence for history and impact reports (CRUD)
+    - Included analytics and trends visualizations
+    - Implemented clean server/client separation with RESTful API design

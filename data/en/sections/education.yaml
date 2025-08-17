@@ -1,0 +1,51 @@
+section:
+  name: Education
+  id: education
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/education.html
+
+degrees:
+- name: M.S. in Computer Science
+  icon: fa-graduation-cap
+  institution:
+    name: University of Colorado Boulder
+    url: "https://www.colorado.edu/"
+  grade:
+    scale: GPA
+    achieved: "3.9"
+    outOf: 4.0
+  takenCourses:
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Machine Learning
+      achieved: "#"
+      outOf: 4
+    - name: Deep Learning
+      achieved: "#"
+      outOf: 4
+    - name: Autonomous Systems
+      achieved: "#"
+      outOf: 4
+    - name: Software Architecture
+      achieved: "#"
+      outOf: 4
+    - name: Cloud Networking
+      achieved: "#"
+      outOf: 4
+  publications:
+  extracurricularActivities:
+  startYear: 2024
+  endYear: 2026
+
+- name: B.S. in Computer Science
+  icon: fa-graduation-cap
+  institution:
+    name: University of Texas at Dallas
+    url: "https://www.utdallas.edu/"
+  publications:
+  extracurricularActivities:
+  startYear: "2020"
+  endYear: "2024"

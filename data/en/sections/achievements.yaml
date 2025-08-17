@@ -1,0 +1,24 @@
+section:
+  name: Certifications
+  id: achievements
+  enable: false
+  weight: 6
+  showOnNavbar: false
+  template: sections/achievements.html
+
+achievements:
+- title: AWS Certified Solutions Architect – Associate
+  image: images/sections/achievements/aws-sa.png
+  summary: Demonstrates expertise in designing distributed systems on AWS
+  date: July 2023
+  organization:
+    name: Amazon Web Services
+    url: https://aws.amazon.com
+
+- title: AWS Certified Cloud Practitioner
+  image: images/sections/achievements/aws-cp.png
+  summary: Validates cloud fluency and foundational AWS knowledge
+  date: June 2023
+  organization:
+    name: Amazon Web Services
+    url: https://aws.amazon.com

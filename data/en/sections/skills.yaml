@@ -1,0 +1,24 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  template: sections/skills.html
+
+skills:
+- name: Python
+  icon: /images/sections/skills/python.png
+  summary: "Proficient in Python for backend development, data analysis, and automation"
+
+- name: Web Development - JS Frameworks
+  icon: /images/sections/skills/web.png
+  summary: "React, Vue.js, Node.js, Express - Building modern web applications"
+
+- name: Cloud Computing
+  icon: /images/sections/skills/cloud.png
+  summary: "AWS Certified Solutions Architect & Cloud Practitioner - Designing scalable cloud infrastructure"
+
+- name: AI Tools
+  icon: /images/sections/skills/ai.png
+  summary: "Claude Code, Cursor, ChatGPT - Leveraging AI for accelerated development and problem-solving"

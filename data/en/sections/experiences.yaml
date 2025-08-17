@@ -1,0 +1,48 @@
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/experiences.html
+
+experiences:
+- company:
+    name: Throne Science
+    location: Austin, TX
+    overview: AI Health Device Startup
+  positions:
+  - designation: Contractor
+    start: May 2025
+    end: July 2025
+    responsibilities:
+    - Integrated beta hardware/software for a gut health diagnostic device (3D-printed enclosures, PCBs, camera modules)
+    - Verified AI imaging systems; ensured OTA update success
+    - Debugged prototypes; resolved hardware/software and mobile app issues
+    - Coordinated with engineering to improve reliability
+
+- company:
+    name: Outlier
+    location: Remote
+    overview: AI Evaluation & Research Startup
+  positions:
+  - designation: AI Writing Evaluator (Tier 1)
+    start: Jun 2024
+    end: Aug 2024
+    responsibilities:
+    - Evaluated AI-generated responses for reliability, accuracy, and safety
+    - Analyzed tool/API logs to assess external tool use and improve model accuracy
+    - Completed enablement program on advanced evaluation techniques
+
+- company:
+    name: PeopleStrategy
+    location: Remote
+    overview: HR Technology Company
+  positions:
+  - designation: Software Engineering Intern
+    start: Aug 2022
+    end: Jan 2023
+    responsibilities:
+    - Resolved bugs to reduce downtime
+    - Refined API calls; ensured Spring Boot integration and data accuracy
+    - Improved UX with Vue.js formatting and data adjustments

@@ -1,0 +1,43 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Computer Science M.S. Student
+company:
+  name: University of Colorado Boulder
+  url: "https://www.colorado.edu/"
+
+summary: |
+  What draws me most to AI-assisted development is how it changes the tempo and texture of building software. Instead of treating AI as a one-off generator of code snippets, I see it as a knowledgeable collaborator—one that can suggest algorithms I might not have considered, surface edge cases before they become bugs, and help structure both code and documentation for clarity and maintainability.
+
+  Across projects, I've used Claude Code, Cursor with ChatGPT-5, and DALL·E 3 to deliver scalable, maintainable solutions—from transforming a 6,000+ line UI into a clean React design system, to building an end-to-end image-to-DXF pipeline for 3D-printed phone cases, to shipping a weather dashboard with clean server/client separation.
+
+  Currently pursuing an M.S. in Computer Science and applying AI-assisted workflows to real projects.
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mailto:panugu@proton.me"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/preethamanugu"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/p-anugu"
+
+badges:
+- type: certification
+  name: AWS Solutions Architect – Associate
+  url: "https://www.credly.com/badges/41ffebe3-eb95-40a6-9f61-26779a5017c4/public_url"
+  badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+
+- type: certification
+  name: AWS Cloud Practitioner
+  url: "https://www.credly.com/badges/e3d558c2-79a7-4217-916b-96c3eac03c2e/public_url"
+  badge: "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"

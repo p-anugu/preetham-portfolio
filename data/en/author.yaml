@@ -1,0 +1,25 @@
+name: "Preetham Anugu"
+nickname: "Preetham"
+greeting: "Hi, I am"
+image: "images/avatar.jpg"
+designation: "Computer Science M.S. Student"
+summary:
+  - "I explore AI-assisted workflows to build practical, maintainable software—combining strong CS fundamentals with modern toolchains."
+
+# Social links
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mailto:panugu@proton.me"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/preethamanugu"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/p-anugu"
+
+- name: Phone
+  icon: "fas fa-phone"
+  url: "tel:+15128063912"
